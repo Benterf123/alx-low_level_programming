@@ -1,14 +1,13 @@
 #include <studio.h>
-
 /**
- * main - void enables the code to run successfully
-(*
- * Return: Always 0 (Success)
- *Description: printing using puts)?
+ * main - void enables the code run successfully
+ (*
+ *Description: prints using puts)?
  *Return: 0
  */
-
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0) ;}
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
+
