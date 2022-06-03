@@ -2,6 +2,7 @@
 
 /**
  * main - prints all possible digit combinations
+ *Description: program that prints combinations of digits
  *
  * Return: 0
  */
@@ -24,7 +25,7 @@ int main(void)
 			}
 		}
 	}
-	putchar('n\');
+	putchar('\n');
 	
-return (0);
+	return (0);
 }
