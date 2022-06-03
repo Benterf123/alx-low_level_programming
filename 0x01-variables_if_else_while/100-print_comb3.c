@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int tents;
+	int tens;
 	int ones;
 
 	for (tens = 0; tens <= 9; tens++)
