@@ -7,7 +7,7 @@
  *
  *Description: Programs that prints lowercase letters except e and q
  *
- *Return: 0 
+ *Return: 0
  *
  */
 
