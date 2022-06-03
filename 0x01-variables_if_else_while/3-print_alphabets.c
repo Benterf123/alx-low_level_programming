@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-
-
 /**
- *
  * main - print alphabet in lower and uppercase
+ *Description: Program that prints alphabets in lowercases)?
  *
  * Return: (0) Success
  */
