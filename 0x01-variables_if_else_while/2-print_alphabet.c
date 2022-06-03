@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - program that prints lowercase alphabets
+ *main - program that prints lowercase alphabets
  *Description: code that prints lowercase alphabets using putchar)?
  *
- * return: 0
+ *Return: 0
  */
 int main(void)
 {
