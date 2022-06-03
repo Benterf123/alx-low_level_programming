@@ -1,19 +1,34 @@
 #include <stdio.h>
-#include <ctype.h>
+
+
 
 /**
- * main - program that prints the alphabets in lowercases
  *
- * Return: 0
+ * main - print alphabet in lower and uppercase
+ *
+ * Return: (0) Success
  */
+
 int main(void)
 {
-	char alphabets;
-	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
+	char ch;
+
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		putchar(alphabets);
+		putchar(ch);
+
 	}
+
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
+
+	{
+
+		putchar(ch);
+
+	}
+
 	putchar('\n');
-	
-return (0);
+
+	return (0);
+
 }
