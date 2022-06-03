@@ -5,7 +5,7 @@
 /**
  *main - Printing alphabets in lowercase
  *
- * Description: Programs that prints lowercase letters except e and q
+ *Description: Programs that prints lowercase letters except e and q
  *
  *Return: 0 
  *
