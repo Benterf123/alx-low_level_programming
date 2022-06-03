@@ -2,6 +2,7 @@
 
 /**
  * main - program that prints lowercase alphabets
+ *Description: code that prints lowercase alphabets using putchar)?
  *
  * return: 0
  */
