@@ -9,7 +9,9 @@
  */
 int main(void)
 {
+	print_alphabet(a - z);
 	char a;
+
 	a = 'a';
 
 	for (a = 'a'; a <= 'z'; a++)
