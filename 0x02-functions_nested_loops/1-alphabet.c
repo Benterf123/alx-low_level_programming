@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	char a = 'a';
+	char a;
+	a = 'a';
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
