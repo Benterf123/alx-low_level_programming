@@ -2,7 +2,7 @@
 
 /**
  * main - prints lowercase alphabets
- * Description: program that prints lowercase alphabets
+ * Description: putchar function that prints lowercase alphabets 
  *
  * Return: 0
  */
@@ -13,7 +13,7 @@ void print_alphabet(void)
 	while (letter <= 'z')
 	{
 		_putchar(letter);
-		letter++
+		letter++;
 	}
 	_putchar('\n');
 
