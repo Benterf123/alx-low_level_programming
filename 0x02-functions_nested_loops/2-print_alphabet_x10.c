@@ -15,7 +15,7 @@ void print_alphabet_x10(void)
 	{
 		_putchar(letter);
 	}
-	for (round = 0; round <= 10; round++)
+	for (round = 0; round < 10; round++)
 
 		_putchar('\n');
 }
