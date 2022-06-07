@@ -2,17 +2,16 @@
 #include "main.h"
 
 /**
- * main - printing lowercase alphabets
+ * main - prints lowercase alphabets
  * Description: program that prints lowercase alphabets
  *
  * Return: 0
  */
 int main(void)
 {
-	print_alphabet(a - z);
-	char a;
+	char letter;
 
-	a = 'a';
+	letter = 'a';
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
