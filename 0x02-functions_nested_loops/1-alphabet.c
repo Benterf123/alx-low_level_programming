@@ -4,7 +4,7 @@
  * main - prints lowercase alphabets
  * Description: putchar function that prints lowercase alphabets 
  *
- * Return: 0
+ * Return: void
  */
 void print_alphabet(void)
 {
