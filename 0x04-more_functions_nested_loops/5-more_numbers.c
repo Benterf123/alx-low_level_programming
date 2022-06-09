@@ -8,15 +8,14 @@
  */
 void more_numbers(void)
 {
-	char c;
-	int round;
+	int c, round;
 
-	for (c = 0; c <= 14; c++)
+	for (c = 0; c < 15; c++)
 	{
 		for (round = 0; round <= 10; round++)
 		{
-			_putchar((c / 10) + '0');
-			_putchar((c % 10) + '0');
+			_putchar((c / 10) + 48);
+			_putchar((c % 10) + 48);
 		}
 		_putchar('\n');
 	}
