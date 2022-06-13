@@ -1,24 +1,17 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * _strcmp - compares two strings
- * @s1: first string to compare
- * @s2: second string to compare
+ * _puts - prints a string followed by a new line
+ * @str: defines the string
  *
- * Return: less than 0 if s1 is less than s2, 0 if they're equal,
- * more than 0 if s1 is greater than s2
+ * Return: 0
  */
-int _strcmp(char *s1, char *s2)
+void _puts(char *str)
 {
-	while (*s1 == *s2)
+	while (*str != '\0')
 	{
-		if (*s1 == '\0')
-		{
-			return (0);
-		}
-		s1++;
-		s2++;
+		_putchar(str[i]);
+		i++;
 	}
-	return (*s1 - *s2);
+	_putchar('\n');
 }
