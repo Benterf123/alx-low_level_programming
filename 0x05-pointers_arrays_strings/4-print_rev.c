@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * reverse_array - reverses an array of integers
+ * print_rev - reverses an array of integers
  * @a: array to be reversed
  * @n: number of elements in the array
  *
  * Return: 0
  */
-void reverse_array(int *a, int n)
+void print_rev(char *s)
 {
 	int i, j, tmp;
 
