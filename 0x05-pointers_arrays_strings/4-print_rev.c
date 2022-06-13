@@ -9,7 +9,7 @@
  */
 void print_rev(char *s)
 {
-	int i, j, tmp;
+	int i, n, j, tmp;
 
 	j = n - 1;
 
