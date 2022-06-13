@@ -2,7 +2,7 @@
 
 /**
  * print_rev - reverses an array of integers
- * @a: array to be reversed
+ * @s: array to be reversed
  * @n: number of elements in the array
  *
  * Return: 0
@@ -15,9 +15,9 @@ void print_rev(char *s)
 
 	for (i = 0; i < n / 2; i++)
 	{
-		tmp = a[i];
-		a[i] = a[j];
-		a[j--] = tmp;
+		tmp = s[i];
+		s[i] = s[j];
+		s[j--] = tmp;
 	}
 
 }
