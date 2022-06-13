@@ -1,23 +1,19 @@
 #include "main.h"
 
 /**
- * print_rev - reverses an array of integers
- * @s: array to be reversed
- * @n: number of elements in the array
- *
- * Return: 0
+ * print_rev - a function that prints a strig in reverse order
+ * @s: an input string
+ * Return: Nothing
  */
 void print_rev(char *s)
 {
-	int i, j, tmp;
+	int i = 0;
 
-	j = n - 1;
+	while (s[i] != '\0')
+		i++;
 
-	for (i = 0; i < n / 2; i++)
-	{
-		tmp = s[i];
-		s[i] = s[j];
-		s[j--] = tmp;
-	}
+	while (i)
+		_putchar(s[--i]);
 
+	_putchar('\n');
 }
