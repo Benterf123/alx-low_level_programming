@@ -10,4 +10,5 @@ int wildcmp(char *s1, char *s2);
 void _putchar(char c);
 int _sqrt(int n, int i);
 int divisors(int n, int m);
+int p1(char *s, int l);
 
