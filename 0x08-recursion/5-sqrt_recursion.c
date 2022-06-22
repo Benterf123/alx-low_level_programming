@@ -2,6 +2,7 @@
 
 /*
  * _sqrt_recursion - returns the square root of a number
+ * Description: function that prints the square root/?
  * @n: int n
  * Return: int
  */
