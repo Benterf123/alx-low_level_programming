@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -7,7 +8,7 @@
  */
 int main(void)
 {
-	printf("%s\n", _FILENAME_);
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
