@@ -37,7 +37,6 @@ char *_copy(char *src)
 
 /**
  * new_dog - Create a new dog variable
-
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
